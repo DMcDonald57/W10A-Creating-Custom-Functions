@@ -19,10 +19,11 @@ console.log(length(`Jacksonville`));
 console.log(length(`Edmonton`));
 console.log(length(`Saskatchewan`));
 
-function PHString([text]) {
-        let result3 = ([text.startswith(`ph`)]);
-        return result3;
+
+function PHString(string) {
+    for (let i =  0; i < string.length; i++){;
+        let result3 = (string.startswith(`Ph`) === true[i])
+    } elseif === false;
+        return result3
 }
-
-console.log(PHString([`John`, `Jack`, `Phil`, `Bobby`]));
-
+console.log(PHString(String = [`John`,`Jack`,`Phil`,`Bobby`]));
